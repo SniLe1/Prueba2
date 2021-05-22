@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/marcas.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container-fluid navbar navbar-light" style="background-color: #ffffff;">
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Street Friends</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="prros.html">Perros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gtos.html">Gatos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Acerca de Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Usuario
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="registro.html">Registrate</a></li>
+                      <li><a class="dropdown-item" href="sesion.html">Iniciar sesion</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!--Caroussel-->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slider6.jpg" class="d-block w-100" alt="..." data-holder-rendered="true">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider8.jpg" class="d-block w-100" alt="..." data-holder-rendered="true">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Seccion de perros y gatos-->
+    <div id="secciones" style="background: url(img/fondo.jpg);">
+        <div class="container-md p-5">
+            <div class="row">
+              <h1 style="font-family: sans-serif; font-style: oblique; text-align: center;">Seccion de Animales</h1>
+              <div class="row">
+                <!--Seccion de Perros-->
+                <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                    <img src="img/perro1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Seccion de Perros</h5>
+                      <a href="prros.html" class="btn btn-primary">Ir a perros</a>
+                    </div>
+                  </div>
+                </div>
+                <!--Seccion de gatos-->
+                <div class="col-sm">
+                  <div class="card w-100 card-border mb-5">
+                    <img src="img/gato1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Seccion de Gatos</h5>
+                      <a href="gtos.html" class="btn btn-primary">Ir a gatos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    
+      <!--Redes sociales-->
+      <div>
+        <h1 style="font-family: sans-serif; font-style: oblique; text-align: center;">Nuestras redes sociales</h1>
+      </div>
+      <div class="redes-container container-fluid">
+          <ul>
+            <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+          </ul>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/miscrip.js"></script>
+</body>
+</html>

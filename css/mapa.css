@@ -1,0 +1,15 @@
+.button{
+    border: none;
+    width: 25%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 520px;
+}
+
+.button:hover{
+    background: cadetblue;
+}

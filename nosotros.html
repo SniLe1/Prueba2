@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/marcas.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/mapa.css">
+</head>
+<body style="background: url(img/fondo.jpg);">
+    <div class="container-fluid navbar navbar-light" style="background-color: #ffffff;">
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Street Friends</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Perros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gatos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Usuario
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="registro.html">Registrate</a></li>
+                      <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+        <h1 id="titulo">Acerca de nosotros</h1>
+        <h5 id="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</h5>
+        <h1 id="titulo">Donde nos puedes encontrar</h1>
+        
+        <button class="button" onclick="findMe()">Mostrar ubicacion</button>
+        <!--La api no muestra el mapa por que google me dice que tengo que pagar-->
+        <div id="map"></div>
+
+        <h1 id="titulo2">Clima en la ciudad</h1>
+
+        <div id="clima">
+            <form>
+                <div class="form-group">
+                <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ingrese Ciudad">
+                </div>
+                <button id="consultaClima" type="button" class="btn btn-primary margenTop10" onclick="cargar_clima()">Consular clima</button>
+            </form>
+
+            <div id="datosDelClima">
+                <p id="datosCiudad">La temperatura para <span id="ubicacion"></span> es: <span id="temperatura"></span></p>
+                <p id="datosCiudad">Humedad Relativa <span id="humedad"></span> % Porciento</p>
+                <p id="datosCiudad">Velocidad del viento <span id="velocidadViento"></span> KM/h</p>
+            </div>
+        </div>  
+    </div>
+    
+    
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/miscrip.js"></script>
+    <script src="js/mapa.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNxNHU8hlZgwB69AbiMJVheX3KDqSUfhs"></script>
+</body>
+</html>

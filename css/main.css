@@ -1,0 +1,133 @@
+.navlink{
+    color: black;
+}
+
+.navbar{
+    
+}
+
+
+
+.card-border{
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    border: solid 2px white;
+    border-radius: 20px;
+    
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#perros{
+    background: rgb(255, 255, 255);
+    background: url(../img/bg-02.png),  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+#carouselExampleCaptions{
+    margin:auto;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    border: solid 8px rgb(42, 46, 49);
+    border-radius: 20px;
+}
+
+#carousel-item{
+    width: 980px; 
+    height: 572px
+}
+
+.titulo{
+    font-family: cursive;
+}
+
+#slide{
+    color: black;
+    font-weight: bold;
+}
+
+#redes{
+    margin-right: 10px;
+    margin-left: 350px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+#redes2{
+    margin:auto;
+    margin-left: 20px;
+}
+
+#redes3{
+    margin:auto;
+    margin-right: 10px;
+    margin-left: 200px;
+}
+
+#formulario{
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#datosCiudad{
+    text-align: center;
+}
+
+#consultaClima{
+    margin-top: 10px;
+}
+
+#datosDelClima{
+    margin-top: 10px;
+}
+
+#letras{
+    color: teal;
+}
+
+.navbar-brand{
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+#foto{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+formulario{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+
+form-group{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.margen{
+    margin-top: 30px;
+}
+
+#fondo{
+    background: url(.../img/main.css);
+}

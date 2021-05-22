@@ -1,0 +1,29 @@
+#titulo{
+    text-align: center;
+    margin-top: 15px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+#parrafo{
+    font-family: sans-serif;
+    font-style: oblique;
+    padding: 30px;
+}
+
+#titulo2{
+    text-align: center;
+    margin-top: 200px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+#clima{
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 520px;
+}
+
+#datosCiudad{
+    color: white;
+}
